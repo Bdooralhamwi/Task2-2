@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+html {
+  font-family: sans-serif;
+  background-color: #eee;
+}
+header {
+  background-color: black;
+  display: flex;
+}
+header a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-size: 12px;
+}
+header a:hover {
+  background-color: rgb(202, 196, 14);
+  color: black;
+  cursor: pointer;
+}
+section {
+  max-width: 600px;
+  margin-inline: auto;
+}
+.hero {
+  background-image: url(./img/coffeehouse.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  max-width: unset;
+}
+h1 {
+  font-size: 100px;
+  color: white;
+  font-weight: 100;
+  width: 100px;
+  text-align: center;
+  margin-inline: auto;
+  line-height: 2;
+}
+h2 {
+  background: #000;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 100;
+  width: fit-content;
+  margin-inline: auto;
+  margin-block: 50px;
+}
+
+.hero div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 200px;
+  padding: 10px;
+}
+.hero div span,
+.hero div p {
+  background: #000;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+.hero div span {
+  background: none;
+}
+.s2 p {
+  font-size: 12px;
+  color: black;
+  line-height: 1.5;
+}
+.s2 code {
+  margin-block: 30px;
+  padding: 20px;
+  border-left: 5px solid #ccc;
+  background-color: #eee;
+  display: block;
+  background-color: #e8e3e3;
+}
+.s2 span {
+  font-size: 12px;
+  display: block;
+  margin-top: 10px;
+}
+.s3 > div {
+  background-color: white;
+  box-shadow: 0 0 5px #0005;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.s3 > div > div:first-of-type {
+  position: relative;
+  display: flex;
+}
+.s3 > div > div {
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgb(52, 48, 48);
+}
+.s3 > div > div button {
+  background: none;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  outline: none;
+  transition: 0.5s;
+}
+.s3 > div > div button:first-of-type:hover {
+  background-color: aqua;
+}
+.s3 > div > div button:hover {
+  background-color: aqua;
+}
+
+.s3 > div > div button:first-of-type {
+  background-color: rgb(52, 48, 48);
+  color: white;
+}
+.s3 > div > div h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 100;
+}
+.s3 > div > div p {
+  margin-bottom: 30px;
+  color: #aaa;
+  font-size: 15px;
+}
+.s4 p {
+  margin-bottom: 10px;
+  line-height: 2;
+}
+.s4 p span {
+  background: #000;
+  color: white;
+  padding: 5px;
+}
+.s4 form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.s4 form input {
+  border: 1px solid #ccc;
+  padding: 10px 5px;
+}
+.s4 form input:focus {
+  background-color: #ddd;
+}
+.s4 form button {
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: fit-content;
+}
+.s4 form button:hover {
+  background-color: rgb(255, 0, 251);
+}
+footer {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: gray;
+  font-size: 12px;
+}
+u {
+  color: gray;
+}
